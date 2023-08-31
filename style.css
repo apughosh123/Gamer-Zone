@@ -1,0 +1,81 @@
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.card-title{
+    color:purple;
+}
+.card-body h2{
+    color: deeppink;
+}
+
+.heading{
+    text-align: center;
+    background: var(--gradient);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-color: #f83292;
+    background-clip: text;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+
+}
+.paragraph{
+    text-align: center;
+    background: var(--gradient);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-color: #006c78;
+    background-clip: text;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+
+}
+.group-bg{
+    background-color: #f83292;
+}
+
+footer{
+    margin-top: 100px;
+    background-color:cadetblue;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    text-overflow: var(--gradient);
+}
+
+footer section section div ul.a li a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    padding-left: 0;
+    color: #FFFFFF;
+}
+
+footer section section div ul.b li a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-left: 0;
+}
+footer section section div ul.a li a b{
+    display: flex;
+    margin-right: 340px;
+}
+
+footer section section div p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
